@@ -1,0 +1,162 @@
+<html>
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="starrating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div>
+ <!-------------------------------------------HEADER----------------------------------------------------------> 
+                <div class="header">
+                    <div class="heading">Akshay Mart</div>
+                    
+                 <div class = "edit">
+                    <button class="button-42" role="button"> <h2>Edit</h2> </button>
+                 </div>
+                </div>
+            
+ <!-------------------------------------------HEADER-END----------------------------------------------------------> 
+    
+
+<!-------------------------------------------BODY--------------------------------------------------------------> 
+<div class="bottom">
+    <div class="bottom-left">
+         <div class = "image"> 
+        <img src = "images/gallery-1.jpg" class="big-image" id="productimg">
+      </div>
+        <div class="small-img-row">
+            <div class="small-img-col">
+              <div>
+                <img src="images/gallery-1.jpg" width="100%" height="100vh" class="small-img">
+                </div>
+
+            </div>
+            <div class="small-img-col">
+                <img src="images/gallery-2.jpg" width="100%" height="100vh" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="images/gallery-3.jpg" width="100%" height="100vh" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="images/gallery-4.jpg" width="100%" height="100vh" class="small-img">
+            </div>
+             
+            </div>
+            <div class="details">
+              <h1>Hello</h1>
+            </div>
+
+    </div>
+    
+
+
+    <div class="bottom-right">
+               <div class="main"> 
+               <h2 class="head">User Rating</h2>
+               <div class="star"> 
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+              </div>
+             </div>
+            
+               <p><h3>4.8 average based on 294 review</h3></p>
+
+               <div class="row">
+                <div class="side">
+                  <div>5 star</div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+                <div class="side right">
+                     <div>180</div>
+                </div>
+                  <div class="side">
+                    <div>4 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div class="bar-4"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div>73</div>
+               </div>
+               <div class="side">
+                <div>3 star</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-3"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>15</div>
+              </div>
+              <div class="side">
+                <div>2 star</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-2"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>6</div>
+              </div>
+              <div class="side">
+                <div>1 star</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>20</div>
+              </div>
+
+               
+
+    </div>
+
+</div>
+
+<script>
+ var productimg = document.getElementById("productimg");
+ var smallimg = document.getElementsByClassName("small-img");
+ 
+ smallimg[0].onclick = function()
+ {
+   productimg.src = smallimg[0].src;
+ }
+ smallimg[1].onclick = function()
+ {
+   productimg.src = smallimg[1].src;
+ }
+ smallimg[2].onclick = function()
+ {
+   productimg.src = smallimg[2].src;
+ }
+ smallimg[3].onclick = function()
+ {
+   productimg.src = smallimg[3].src;
+ }
+
+</script>
+
+
+
+
+
+
+
+<!-------------------------------------------BODY-END--------------------------------------------------------->    
+
+
+
+
+</div>
+</html>
